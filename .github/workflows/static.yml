@@ -1,0 +1,100 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire repository
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+<html>
+
+<head>
+<title> 💔S4D💔 </title>
+
+
+</head>
+
+
+<body bgcolor="black" text="green"> <center> Bienvenido a 💔S4D💔 </center>
+
+
+
+<P>
+   <center><img src="imagen.jpg.jfif" ></center> 
+</P>
+
+
+<P><center>_______________ESCUCHA LO ULTIMO DE DEREK CON ISSAC________________</center>
+</p>
+
+<p>
+(↓)(↓)(↓) BAJA (↓)(↓)(↓) 
+</p>
+
+ <img src="estaes.gif" >
+<p>(↓)(↓)(↓) ESCUCHA AQUÌ (↓)(↓)(↓) 
+</p>
+
+
+
+▶🎵💜​🙀​Desde que te fuiste Derek liric​💤​💯​ 🎵
+<video controls=""autoplay="" name="media">
+<source src="tu pensastes.wav" type="audio/wav"></video>
+<p>
+▶🎵🧠​​🏋️​🏇​no te conozco derek con issac​🧠​​🏋️​🏇​🎵 
+
+<video controls= name="media">
+<source src="no te conozco.mp3" type="audio/mpeg"></video>
+
+<P>
+▶🎵💋​🍁​​ PRESO DE TU BOCA derek con issac​​❤️‍🔥​🎵 
+<body><video controls= name="media">
+<source src="Besos -_-  Derek ft Isaac.mp4" type="video/mp4"></video></body>
+</P>
+<p>
+
+▶🎵 🎵🛀​👁️​  DESNUDA derek con Isaac🥂​🍑​ 🎵 🎵
+<video controls= name="media">
+<source src="Desnuda-Rod Auce-.mp4" type="video/mp4"></video>
+
+</p>
+
+<p>
+▶🎵🐇​🍄​LO hacemos bien derek🎵♥️​✌🏼🎵
+<video controls= name="media">
+<source src="no lo olvides.mp4" type="video/mp4"></video>
